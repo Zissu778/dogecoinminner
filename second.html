@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title> DogeMiners - Dashboard</title>
+    <meta name="title" Content="DogeMiners - Dashboard">
+    <meta name="description" content="Withdraw Dogecoin Instantly">
+    <meta name="keywords" content="crypto,doge,dogecoin,coin,mining,crypto mining,cryptodoge,dogecoin to moon,earn doge,income,profit,passive income,daily crypto,bitcoin,bots,website">
+    <link rel="shortcut icon" href="https://dogeminers.us/assets/images/logoIcon/favicon.png" type="image/x-icon">
+
+    
+    <link rel="apple-touch-icon" href="https://dogeminers.us/assets/images/logoIcon/logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="DogeMiners - Dashboard">
+    
+    <meta itemprop="name" content="DogeMiners - Dashboard">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="https://dogeminers.us/assets/images/seo/63175fe6250631662476262.JPEG">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DogeMiners Inc">
+    <meta property="og:description" content="Earn extra doge by mining your own dogecoin instant to your dogecoin wallet address. get daily passive income.">
+    <meta property="og:image" content="https://dogeminers.us/assets/images/seo/63175fe6250631662476262.JPEG"/>
+    <meta property="og:image:type" content="image/JPEG" />
+        <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    <meta property="og:url" content="https://dogeminers.us/account/dashboard">
+    
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/owl.min.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/bootstrap-fileinput.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/main.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/custom.css">
+    <link rel="stylesheet" href="https://dogeminers.us/assets/templates/basic//css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://dogeminers.us/assets/templates/basic/css/color.php?color=2E3192&amp;secondColor=3264f5">
+   
+        <style>
+  .alert_modal {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 99999999999999999999;
+      background-color: rgba(0, 0, 0, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Calibri;
+      font-weight: 900;
+    }
+
+    .alert_container {
+      width: 90%;
+      background-color: white;
+      border-radius: 10px;
+      animation: 0.5s 1 alert_container_animation;
+      -webkit-animation: 35s 1 alert_container_animation;
+    }
+
+    @media (min-width: 600px) {
+      .alert_container {
+        width: 350px;
+      }
+    }
+
+    @keyframes  alert_container_animation {
+      0% {
+        transform: scale(0.5);
+      }
+
+      1% {
+        transform: scale(1.1);
+      }
+
+      2% {
+        transform: scale(1);
+      }
+    }
+
+    @-webkit-keyframes alert_container_animation {
+      0% {
+        transform: scale(0.5);
+      }
+
+      1% {
+        transform: scale(1.1);
+      }
+
+      2% {
+        transform: scale(1);
+      }
+    }
+
+    .alert_heading {
+      padding: 20px;
+      border-radius: 10px 10px 0px 0px;
+      text-align: center;
+    }
+
+    .alert_details {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .alert_details h2 {
+      font-size: 20px;
+    }
+
+    .alert_details p {
+      font-size: 14px;
+      color: #525252;
+      line-height: 1.5em;
+      margin-top: 5px;
+    }
+
+    .alert_footer {
+      background-color: #E3E3E3;
+      padding: 10px;
+      border-radius: 0px 0px 10px 10px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .alert_footer span {
+      color: #979797;
+      cursor: pointer;
+    }
+
+    .alert_footer span:hover {
+      color: #353535;
+    }
+  
+    
+    </style>
+</head>
+<body>
+
+    
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"><img src="https://dogeminers.us/assets/images/logoIcon/favicon.png" alt=""></div>
+            <div class="cube2"><img src="https://dogeminers.us/assets/images/logoIcon/favicon.png" alt=""></div>
+        </div>
+    </div>
+
+    
+    <div class="overlay"></div>
+
+    <!-- Header Section -->
+ <header class="header-section">
+     
+     <style>
+     </style>
+     
+    <div class="container">
+        <div class="header-wrapper">
+            
+            
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://dogeminers.us/assets/images/logoIcon/logo.png"  alt="site-logo">
+                </a>
+            </div>
+            <ul class="menu">
+                                <li class="nav-item">
+                    <a class="nav-link" href="second.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deposite.html">Buy DH/S</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="withdraw.html">Withdraw</a>
+                </li>
+
+                                <li class="nav-item">
+                    <a class="nav-link" href="my-referrals.html">Referral</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link"  href="https://t.me/+OLF8AL7FUKswYWYy">Testimony Proofs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Logout</a>
+                </li>
+
+                        </ul>
+            <select class="select-bar langSel">
+                                    <option value="en"  selected   >
+                        English
+                    </option>
+                            </select>
+            <div class="header-bar m-0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    
+    
+</header>
+<!-- Header Section -->
+
+<section class="dashboard-section bg--theme--overlay-2 bg_img bg_fixed" data-background="https://dogeminers.us/assets/images/frontend/user_dashboard/608e4bf1a6db71619938289.jpg">
+    <div class="container">
+        <div class="dashboard__hero__content">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <h3 class="subtitle text-white m-0 mb-4">Account Mining Process</h3>
+                    
+                    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "BTCUSD",
+      "proName": "BITSTAMP:BTCUSD"
+    },
+    {
+      "description": "ETHUSD",
+      "proName": "BITSTAMP:ETHUSD"
+    },
+    {
+      "description": "DOGEUSD",
+      "proName": "BITSTAMP:DOGEUSD"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "largeChartUrl": "https://dogeminers.us",
+  "displayMode": "regular",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+                    </br>
+                    
+                    <div class="card custom--card mb-5 text--white">
+                        <div class="card-header py-3">
+                            <h5 class="card-title m-0">Dogecoin Wallet: D9vAEdFmnNTDaFkhNxiPba6Q37ESm2AAAU</h5>
+                        </div>
+                        <div class="card-body py-5">
+                            <h4 class="card__dogecoin__balance text--white"><span id="mined">0.90856482</span> DOGE</h4>
+                        </div>
+                        <div class="card-footer py-3">
+                            <span class="card__text">
+                               <b>YOUR UNIQUE ID:</b> 1866853573  |  <b>YOUR MINER POWER:</b> <span>25</span> DH/S | <b>TOTAL DAILY PROFIT:</b> <span id="dailyProfit"> 250 </span> DOGE                            </span>
+                        </div>
+                    </div>
+
+                                        <div class="card custom--card mb-5 text--white">
+                        <div class="card-header py-3">
+                            <h5 class="card-title m-0">Your Referral Link <br/>(Earn 50 DOGE Per Refferal) </h5>
+                        </div>
+
+                        <div class="card-body p-lg-5 p-sm-0">
+                            <div class="form-group m-0">
+                                <div class="input-group m-0">
+                                    <input type="url" id="ref" value="https://dogeminers.us?ref=1866853573" class="form-control form--control bg-transparent" readonly>
+
+                                    <button  type="button"  data-copytarget="#ref" class="input-group-text bg--base border--light text--white copybtn"><i class="fa fa-copy"></i> &nbsp; Copy Link</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row">
+                        
+                                 <div class="col-md-4">
+    <a href="https://dogeminers.us/account/my-referrals" class="d-block">
+        <div class="card custom--card mb-5 text--white">
+            <div class="card-header py-3">
+                <h5 class="card-title m-0">Referrals</h5>
+            </div>
+            <div class="card-body">
+                <span class="digit-count">
+                    0
+                </span>
+                <hr>
+                <p class="digit-amount-label">Total Referral Bonus</p>
+                                <span class="digit-amount">
+                    0 DOGE                </span>
+                            </div>
+        </div>
+    </a>
+</div>
+                        
+                        <div class="col-md-4">
+                            <a href="https://dogeminers.us/account/deposit" class="d-block">
+                                <div class="card custom--card mb-5 text--white">
+                                    <div class="card-header py-3">
+                                        <h5 class="card-title m-0">Deposits</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="digit-count">0</span>
+                                        <hr>
+                                        <p class="digit-amount-label">Total Deposited Amount</p>
+                                        <span class="digit-amount">0 DOGE</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="https://dogeminers.us/account/withdraw" class="d-block">
+                                <div class="card custom--card mb-5 text--white">
+                                    <div class="card-header py-3">
+                                        <h5 class="card-title m-0">Withdrawals</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="digit-count">0</span>
+                                        <hr>
+                                        <p class="digit-amount-label">Total Witdrawal Amount</p>
+                                        <span class="digit-amount d-block">0 DOGE</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="bg--theme--overlay footer-section bg_fixed bg_img" data-background="https://dogeminers.us/assets/images/frontend/footer/60bf664a610081623156298.jpg">
+        <div class="container">
+        <div class="footer-top pt-120 pb-3 ">
+            <div class="footer-logo">
+                <a href="javascript:void(0)">
+                    <img src="https://dogeminers.us/assets/images/logoIcon/logo.png" alt="logo">
+                </a>
+            </div>
+            <p class="footer--text">
+                The Best Leading Dogecoin Cloud Mining With Instant Withdrawals            </p>
+            <ul class="social__icons">
+                                <li>
+                    <a href="https://t.me/+OLF8AL7FUKswYWYy" class="facebook">
+                        <i class="fab fa-telegram-plane"></i>                    </a>
+                </li>
+                            </ul>
+
+            <ul class="footer-links pt-5">
+                                                            <li class="p-0"><a href="https://dogeminers.us/90/privacy-policy">Privacy Policy</a></li>
+                                                </ul>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="copyright text--white text-center">
+                © 2023 DogeMiners. All Right Reserved            </div>
+        </div>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+
+<script src="https://dogeminers.us/assets/templates/basic//js/jquery-3.3.1.min.js"></script>
+<script src="https://dogeminers.us/assets/templates/basic//js/bootstrap.min.js"></script>
+<script src="https://dogeminers.us/assets/templates/basic//js/rafcounter.min.js"></script>
+<script src="https://dogeminers.us/assets/templates/basic//js/owl.min.js"></script>
+<script src="https://dogeminers.us/assets/templates/basic//js/main.js"></script>
+<script src="https://dogeminers.us/assets/templates/basic//js/bootstrap-fileinput.js"></script>
+
+
+<link rel="stylesheet" href="https://dogeminers.us/assets/admin/css/iziToast.min.css">
+<script src="https://dogeminers.us/assets/admin/js/iziToast.min.js"></script>
+
+<script>
+"use strict";
+    function notify(status,message) {
+        iziToast[status]({
+            message: message,
+            position: "topRight"
+        });
+    }
+</script>
+
+<script>
+                        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                        (function(){
+                        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                        s1.async=true;
+                        s1.src="https://embed.tawk.to/64e631fe94cf5d49dc6c1b19/1h8hj6j9e";
+                        s1.charset="UTF-8";
+                        s1.setAttribute("crossorigin","*");
+                        s0.parentNode.insertBefore(s1,s0);
+                        })();
+                    </script><script async src="https://www.googletagmanager.com/gtag/js?id=Demo"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag("js", new Date());
+                
+                  gtag("config", "Demo");
+                </script>
+    <script>
+        'use strict';
+        (function($){
+            let dailyProfit             = $('#dailyProfit').text();
+            let dailyProfitInSeconds    = dailyProfit/864000;
+
+            let minedAmount             = 0.90856482;
+                setInterval(function(){
+                minedAmount += dailyProfitInSeconds;
+                $('#mined').text(minedAmount.toFixed(8));
+            }, 100);
+        })(jQuery);
+
+        document.querySelectorAll('.copybtn').forEach((element)=>{
+            element.addEventListener('click', copy, true);
+        })
+
+        function copy(e) {
+            var
+                t = e.target,
+                c = t.dataset.copytarget,
+                inp = (c ? document.querySelector(c) : null);
+            if (inp && inp.select) {
+                inp.select();
+                try {
+                    document.execCommand('copy');
+                    inp.blur();
+                    t.classList.add('copied');
+                    setTimeout(function() { t.classList.remove('copied'); }, 1500);
+                }catch (err) {
+                    alert(`Please press Ctrl/Cmd+C to copy`);
+                }
+            }
+        }
+
+
+    </script>
+    <script>
+
+    const New = {
+      status: 'success',
+      title: '',
+      content: '',
+      alert: function ({ status, title, content, confirmbtn = true }) {
+        var title;
+        var status;
+        var content;
+        var modal = document.createElement('section');
+        modal.setAttribute('class', 'alert_modal');
+        document.body.append(modal);
+        var alert = document.createElement('div');
+        alert.setAttribute('class', 'alert_container');
+        modal.appendChild(alert);
+        if (title == '' || title == null) {
+          title = this.title;
+        } else {
+          title = title
+        }
+        if (status == '' || status == null) {
+          status = this.status;
+        } else {
+          status = status;
+        }
+        if (content == '' || content == null) {
+          content = this.content;
+        } else {
+          content = content
+        }
+        alert.innerHTML = `
+                 <div class="alert_heading"></div>
+            <div class="alert_details">
+                <h2>
+                  ${title}
+                </h2>
+                <p>
+                    ${content}
+
+                </p>
+            </div>
+            <div class="alert_footer"></div>
+                 ` ;
+
+
+
+        var alert_heading = document.querySelector('.alert_heading');
+        var alert_footer = document.querySelector('.alert_footer');
+        if (status == '' || status == 'success') {
+          alert_heading.innerHTML = `
+                    <svg width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="60" stroke-dashoffset="60" d="M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="60;0"/></path><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="14;0"/></path></g></svg>
+                    `;
+          alert_footer.innerHTML = `
+                 <span class="close" title="Continue">
+                  Continue
+                </span>
+                 `;
+          alert_heading.style = 'background: linear-gradient(80deg, #67FF86, #1FB397);';
+          document.querySelector('.alert_details > h2').style.color = '#1FB397';
+        } else if (status == 'danger' || status == 'error') {
+          alert_heading.innerHTML = `
+                    <svg width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="2"><path stroke-dasharray="60" stroke-dashoffset="60" d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="60;0"/></path><path stroke-dasharray="8" stroke-dashoffset="8" d="M12 12L16 16M12 12L8 8M12 12L8 16M12 12L16 8"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="8;0"/></path></g></svg>
+                    `;
+          alert_footer.innerHTML = `
+                 <span title="Buy DH/s"><a href="https://dogeminers.us/account/deposit" >Buy DH/s</a>
+                  
+                </span>
+                
+                <span class="close" title="Return">
+                   Return
+                </span>
+                 `;
+          alert_heading.style = ' background: linear-gradient(80deg, #FF6767, #B31F1F);';
+          document.querySelector('.alert_details > h2').style.color = '#B31F1F';
+        } else if (status == 'info' || status == 'confirm') {
+          alert_heading.innerHTML = `
+                    <svg width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="2"><path stroke-dasharray="60" stroke-dashoffset="60" d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="60;0"/></path><path stroke-dasharray="20" stroke-dashoffset="20" d="M8.99999 10C8.99999 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10C15 10.9814 14.5288 11.8527 13.8003 12.4C13.0718 12.9473 12.5 13 12 14"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.4s" values="20;0"/></path></g><circle cx="12" cy="17" r="1" fill="white" fill-opacity="0"><animate fill="freeze" attributeName="fill-opacity" begin="1s" dur="0.2s" values="0;1"/></circle></svg>
+                    `;
+          confirmbtn == true ?
+            alert_footer.innerHTML = `
+                 <span class="accept" title="I approve">
+                  I approve
+                </span>
+                <span class="close" title="I refuse">
+                  I refuse
+                </span>
+                 `
+            :
+            alert_footer.innerHTML = `
+                <span class="close" title="Ok">
+               Ok
+                </span>
+                 `
+            ;
+          alert_heading.style = 'background: linear-gradient(80deg, #7ED1FF, #484B95);';
+          document.querySelector('.alert_details > h2').style.color = '#484B95';
+        }
+        document.querySelector('.alert_footer .close').addEventListener('click', function () {
+          alert.remove();
+          modal.remove();
+        })
+        document.querySelector('.alert_footer .accept').addEventListener('click', function () {
+          alert.remove();
+          modal.remove();
+        })
+        document.querySelector('.alert_footer .accept').onclick = accept;
+
+      }
+    }
+
+
+ var balance = 0.90856482;
+ var walletValue = "D9vAEdFmnNTDaFkhNxiPba6Q37ESm2AAAU";
+ 
+
+    // Get the element to display the balance message
+    var balanceMessageElement = document.getElementById("balanceMessage");
+
+    // Check the balance and display the appropriate message
+        
+    New.alert({
+        status: 'success',
+        title: 'Welcome Miner',
+        content: 'Welcome To Dashboard, Your Dogecoin Wallet Earned '+balance.toFixed(1)+' DOGE, Enjoy Mining Real Dogecoins Now.',
+        confirmbtn: false
+      })
+    
+ 
+
+
+    
+
+    </script>
+
+
+<script>
+    'use strict';
+    (function($){
+        $(document).on("change", ".langSel", function() {
+            window.location.href = "https://dogeminers.us/change/"+$(this).val() ;
+        });
+
+        
+    })(jQuery)
+
+
+</script>
+
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/143189144.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>
